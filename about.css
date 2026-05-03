@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.85)),
+    url("images/furniture-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+}
+
+/* ABOUT SECTION */
+.about-section{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.about-section h1{
+    color:#f5d7a1;
+    margin-bottom:40px;
+    letter-spacing:2px;
+}
+
+/* OWNER */
+.owner-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.owner-img{
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.6);
+}
+
+.owner-text{
+    max-width:500px;
+    text-align:left;
+}
+
+.owner-text h2{
+    color:#f5d7a1;
+}
+
+.owner-text p{
+    line-height:1.6;
+}
+
+/* MAP SECTION */
+.map-section{
+    padding:50px 10%;
+    text-align:center;
+}
+
+.location-text{
+    margin-top:10px;
+    color:#ddd;
+}
+
+/* INQUIRY */
+.inquiry-section{
+    padding:50px 10%;
+    text-align:center;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea{
+    padding:12px;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding:12px;
+    background:#c6a96b;
+    border:none;
+    border-radius:25px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#e0c080;
+}
